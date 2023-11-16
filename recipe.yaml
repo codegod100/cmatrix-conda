@@ -1,0 +1,17 @@
+context:
+  version: "2.0"
+
+package: 
+  name: cmatrix
+  version: ${{version}}
+
+source:
+  url: https://github.com/abishekvashok/cmatrix/releases/download/v2.0/cmatrix-v2.0-Butterscotch.tar
+  sha256: e46c739bfe79e570db2461f89ac66ea79a8fab8efb8423ab53f143e93c2553bc
+
+build:
+  number: 1
+
+requirements:
+  host:
+    - tar
